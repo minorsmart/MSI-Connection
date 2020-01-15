@@ -1,0 +1,36 @@
+body {
+    background-color: lightblue;
+  }
+  
+h1 {
+    color: white;
+    text-align: center;
+  }
+
+h2 {
+    color: rgb(248, 56, 98);
+  }
+
+h3 {
+    color: rgb(56, 123, 248);
+  }
+  
+p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+input[type=text] {
+    padding: 10px
+  }
+
+input[type=button] {
+    background-color: rgb(235, 29, 73); /* HAN Kleur */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
