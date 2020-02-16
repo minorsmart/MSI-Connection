@@ -8,8 +8,8 @@ function runFunction() {
 }
 
 function ggDeler(a, b) {
-    let d = Math.max(a)
-    let dd = Math.min(b)
+    let d = Math.max(a, b)
+    let dd = Math.min(a, b)
     let r = d%dd
     let i = 0
     
