@@ -8,8 +8,8 @@ firebase.initializeApp({
 var db = firebase.firestore();
 
 function runFunction() {
-    const n = document.getElementById("").value
-    const m = document.getElementById("").value
+    const n = document.getElementById("n-value").value
+    const m = document.getElementById("m-value").value
     writeFunction()
 }
 
